@@ -1,4 +1,4 @@
-let yrspta = "http://"+"your"+"spor"+"ts."+"stre"+"am/" + "/ing/";
+let yrspta = "http://"+"your"+"spor"+"ts."+"stre"+"am/" + "ing/";
 let espnnl = yrspta +  "tvx2?ch=fs1nl";
 let espn2nl = yrspta +  "tvx2?ch=fs2nl";
 let espn3nl = yrspta +  "tvx2?ch=fs3nl";
