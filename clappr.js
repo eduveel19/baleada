@@ -88,10 +88,9 @@ let l8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // O T S
-let eia = "//live-dvr.eitb-fastly.cross-media.es/live-content/"; let eib = "/master.m3u8";
-let etb = eia + "etb1hd-hls" + eib;
-let etb2 = eia + "etb2hd-hls" + eib;
-let eitb = eia + "eitbbasque-hls" + eib;
+let etb = "//live-dvr.eitb-fastly.cross-media.es/live-content/etb1hd-hls/master.m3u8";
+let etb2 = "//live-dvr.eitb-fastly.cross-media.es/live-content/etb2hd-hls/master.m3u8";
+let eitb = "//live-dvr.eitb-fastly.cross-media.es/live-content/eitbbasque-hls/master.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
