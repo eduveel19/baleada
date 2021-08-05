@@ -1,3 +1,14 @@
+// ALERT
+let alertyrspt =
+`
+<section class="container">
+<section style="background-color: #000;color: #fff;position: fixed;width: 50%" class="alert alert-2 alert-info" role="alert">
+<i class="fa fa-info-circle"></i> Gracias por utilizar iRaffle Sports!
+</section>
+</section>
+`;
+for (const ele of document.getElementsByClassName("alertyrspt")){ele.innerHTML=(alertyrspt)}
+
 let yrspta = "http://"+"your"+"spor"+"ts."+"stre"+"am/" + "ing/";
 let espnnl = yrspta +  "tvx2?ch=fs1nl";
 let espn2nl = yrspta +  "tvx2?ch=fs2nl";
@@ -48,3 +59,6 @@ function getParameterByName(name) {
         if (getURL == "lnh") {getURL = lnh;}
         if (getURL == "mlbn") {getURL = mlbn;}
         if (getURL == "tvpublica") {getURL = tvpublica;}
+
+document.write(" <iframe  class='yrspt' frameborder='0' height=100% width=100% src='" + getURL + "' allowfullscreen='yes' scrolling='no' allowtransparency></iframe>");
+        
