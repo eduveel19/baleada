@@ -163,3 +163,5 @@ function getParameterByName(name) {
                 if (srcLOAD == "etb") {srcLOAD = etb;}
                 if (srcLOAD == "etb2") {srcLOAD = etb2;}
                 if (srcLOAD == "eitb") {srcLOAD = eitb;}
+                if (srcLOAD == "tvcanaria") {srcLOAD = tvcanaria;}
+                if (srcLOAD == "malaga101") {srcLOAD = malaga101;}
