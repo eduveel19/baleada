@@ -158,6 +158,6 @@ function getParameterByName(name) {
                 if (srcLOAD == "l9") {srcLOAD = l9;}
                 if (srcLOAD == "l10") {srcLOAD = l10;}
                 // O T S
-                if (getURL == "etb") {getURL = etb;}
-                if (getURL == "etb2") {getURL = etb2;}
-                if (getURL == "eitb") {getURL = eitb;}
+                if (srcLOAD == "etb") {srcLOAD = etb;}
+                if (srcLOAD == "etb2") {srcLOAD = etb2;}
+                if (srcLOAD == "eitb") {srcLOAD = eitb;}
