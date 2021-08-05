@@ -28,7 +28,14 @@ let espnjm = yrspta +  "espnjm";
 let espn2jm = yrspta +  "espn2jm";
 let lnh = yrspta +  "lnh";
 let mlbn = yrspta +  "mlbn";
+// OTROS
 let tvpublica = "//i.futbollibre.net/g/tvpkey.html";
+
+let eia = "//"+"li"+"ve-"+"dvr."+"eit"+"b-"+"fas"+"tly."+"cro"+"ss-"+"med"+"ia."+"es/"+"li"+"ve-"+"con"+"ten"+"t/"; let eib = "mas"+"ter"+".m3"+"u8";
+let etb = eia + "etb1hd-hls" + eib;
+let etb2 = eia + "etb2hd-hls" + eib;
+let eitb = eia + "eitbbasque-hls" + eib;
+
 
 function getParameterByName(name) {
               name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -59,6 +66,9 @@ function getParameterByName(name) {
         if (getURL == "lnh") {getURL = lnh;}
         if (getURL == "mlbn") {getURL = mlbn;}
         if (getURL == "tvpublica") {getURL = tvpublica;}
+        if (getURL == "etb") {getURL = etb;}
+        if (getURL == "etb2") {getURL = etb2;}
+        if (getURL == "eitb") {getURL = eitb;}
 
 document.write(" <iframe  class='yrspt' frameborder='0' height=100% width=100% src='" + getURL + "' allowfullscreen='yes' scrolling='no' allowtransparency></iframe>");
         
