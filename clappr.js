@@ -1,6 +1,6 @@
 window.onload = function() {
              var player = new Clappr.Player({
-                 source: window.atob(srcLOAD),
+                 source: srcLOAD,
                  parentId: '#player',
                  mimeType: 'audio/mpeg',
                  watermark: "https://i.ibb.co/kqmptsD/iRTVW.png", 
@@ -9,7 +9,7 @@ window.onload = function() {
                  events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
                  height: '100%',
                  width: '100%',
-                 autoPlay: false,
+                 autoPlay: true,
                  mute: true,
                  shakaConfiguration: {
                  manifest: {retryParameters: {maxAttempts: Infinity}},
@@ -33,60 +33,60 @@ window.onload = function() {
              });
          };
 // PREMIER
-let p1 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p2 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p3 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p4 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p5 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p6 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p7 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p8 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p9 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let p10 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
+let p1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // LALIGA
-let c1 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c2 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c3 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c4 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c5 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c6 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c7 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c8 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c9 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let c10 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
+let c1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // SERIE A
-let s1 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s2 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s3 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s4 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s5 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s6 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s7 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s8 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s9 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let s10 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
+let s1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // BUNDESLIGA
-let b1 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b2 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b3 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b4 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b5 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b6 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b7 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b8 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b9 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let b10 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
+let b1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // LIGUE 1
-let l1 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l2 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l3 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l4 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l5 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l6 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l7 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l8 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l9 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
-let l10 = "aHR0cHM6Ly9zcG9ydHNncmlkLWtsb3dkdHYuYW1hZ2kudHYvcGxheWxpc3QubTN1OA==";
+let l1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
