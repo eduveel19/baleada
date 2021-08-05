@@ -88,7 +88,7 @@ let l8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // O T S
-let eia = "//"+"li"+"ve-"+"dvr."+"eit"+"b-"+"fas"+"tly."+"cro"+"ss-"+"med"+"ia."+"es/"+"li"+"ve-"+"con"+"ten"+"t/"; let eib = "mas"+"ter"+".m3"+"u8";
+let eia = "//live-dvr.eitb-fastly.cross-media.es/live-content/"; let eib = "/master.m3u8";
 let etb = eia + "etb1hd-hls" + eib;
 let etb2 = eia + "etb2hd-hls" + eib;
 let eitb = eia + "eitbbasque-hls" + eib;
