@@ -91,6 +91,8 @@ let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let etb = "//live-dvr.eitb-fastly.cross-media.es/live-content/etb1hd-hls/master.m3u8";
 let etb2 = "//live-dvr.eitb-fastly.cross-media.es/live-content/etb2hd-hls/master.m3u8";
 let eitb = "//live-dvr.eitb-fastly.cross-media.es/live-content/eitbbasque-hls/master.m3u8";
+let tvcanaria = "//rtvc-live1.flumotion.com/playlist.m3u8";
+let malaga101 = "//limited38.todostreaming.es/live/101tv-web101tv.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
