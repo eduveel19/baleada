@@ -1,6 +1,6 @@
 // S E R V E R
-let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let srvf = "/v8rw"; let srvg = "/"; let srvh = "." + "m3" + "u8";
-let srv = srva + srvb + srvc + srvd + srve + srvf + srvg;
+let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let key = "/v8rw"; let srvg = "/"; let srvh = "." + "m3" + "u8";
+let srv = srva + srvb + srvc + srvd + srve + key + srvg;
 let ch1 = srv + "1" + srvh; let bar = ch1;
 let ch2 = srv + "2" + srvh; let mlaliga1 = ch2;
 let ch3 = srv + "3" + srvh; let mlaliga2 = ch3;
@@ -51,6 +51,15 @@ let ch47 = srv + "47" + srvh;
 let ch48 = srv + "48" + srvh; let foxa = ch48;
 let ch49 = srv + "49" + srvh; 
 let ch50 = srv + "50" + srvh;
+
+// P O T C L L
+let potclla = "//"+"pho"+"toc"+"all"+"."+"tv"; let potcllb = "/"+"ftv"+"."+"m3"+"u8";
+let itv = potclla+key+potcllb + "?ch=itv";
+let itv2 = potclla+key+potcllb + "?ch=itv2";
+let itv3 = potclla+key+potcllb + "?ch=itv3";
+let itv4 = potclla+key+potcllb + "?ch=itv4";
+let itvbe = potclla+key+potcllb + "?ch=itvbe";
+let citv = potclla+key+potcllb + "?ch=citv";
 
 function getParameterByName(name) {
               name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -153,3 +162,10 @@ function getParameterByName(name) {
         if (getURL == "ch48") {getURL = foxa;}
         if (getURL == "49") {getURL = ch49;}
         if (getURL == "50") {getURL = ch50;}
+        // P O T C L L
+        if (getURL == "itv") {getURL = itv;}
+        if (getURL == "itv2") {getURL = itv2;}
+        if (getURL == "itv3") {getURL = itv3;}
+        if (getURL == "itv4") {getURL = itv4;}
+        if (getURL == "itvbe") {getURL = itvbe;}
+        if (getURL == "citv") {getURL = citv;}
