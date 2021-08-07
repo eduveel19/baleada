@@ -97,6 +97,7 @@ let apunt = "//bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-centr
 let tlmch = "//wmaqlive-f.akamaihd.net/i/wmaqb1_1@24420/master.m3u8";
 let tlmwash = "//wrclive-f.akamaihd.net/i/wrcb2_1@46880/master.m3u8";
 let lestrellas = "//dai.google.com/linear/hls/event/_e1s_U52SCGL6zTnlTrbVQ/master.m3u8";
+let estrellatv = "//estrellatv-plex.amagi.tv/playlist.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -170,3 +171,7 @@ function getParameterByName(name) {
                 if (srcLOAD == "tvcanaria") {srcLOAD = tvcanaria;}
                 if (srcLOAD == "malaga101") {srcLOAD = malaga101;}
                 if (srcLOAD == "apunt") {srcLOAD = apunt;}
+                if (srcLOAD == "tlmch") {srcLOAD = tlmch;}
+                if (srcLOAD == "tlmwash") {srcLOAD = tlmwash;}
+                if (srcLOAD == "lestrellas") {srcLOAD = lestrellas;}
+                if (srcLOAD == "estrellatv") {srcLOAD = estrellatv;}
