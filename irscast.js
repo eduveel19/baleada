@@ -41,8 +41,8 @@ let ch37 = srv + "37" + srvh;
 let ch38 = srv + "38" + srvh;
 let ch39 = srv + "39" + srvh;
 let ch40 = srv + "40" + srvh;
-let ch41 = srv + "41" + srvh;
-let ch42 = srv + "42" + srvh;
+let ch41 = srv + "41" + srvh; let mutv = ch41;
+let ch42 = srv + "42" + srvh; let betistv = ch42;
 let ch43 = srv + "43" + srvh;
 let ch44 = srv + "44" + srvh;
 let ch45 = srv + "45" + srvh; let clarosp = ch45;
@@ -141,6 +141,8 @@ function getParameterByName(name) {
         if (getURL == "43") {getURL = ch43;}
         if (getURL == "44") {getURL = ch44;}
         if (getURL == "clarosp") {getURL = ch45;}
+        if (getURL == "ch41") {getURL = mutv;}
+        if (getURL == "mutv") {getURL = ch41;}
         if (getURL == "ch45") {getURL = clarosp;}
         if (getURL == "win") {getURL = ch46;}
         if (getURL == "ch46") {getURL = win;}

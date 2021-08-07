@@ -93,6 +93,7 @@ let etb2 = "//live-dvr.eitb-fastly.cross-media.es/live-content/etb2hd-hls/master
 let eitb = "//live-dvr.eitb-fastly.cross-media.es/live-content/eitbbasque-hls/master.m3u8";
 let tvcanaria = "//rtvc-live1.flumotion.com/playlist.m3u8";
 let malaga101 = "//limited38.todostreaming.es/live/101tv-web101tv.m3u8";
+let apunt = "//bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/playlist_dvr.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -165,3 +166,4 @@ function getParameterByName(name) {
                 if (srcLOAD == "eitb") {srcLOAD = eitb;}
                 if (srcLOAD == "tvcanaria") {srcLOAD = tvcanaria;}
                 if (srcLOAD == "malaga101") {srcLOAD = malaga101;}
+                if (srcLOAD == "apunt") {srcLOAD = apunt;}
