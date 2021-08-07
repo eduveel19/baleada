@@ -22,7 +22,7 @@ let ch18 = srv + "18" + srvh; let directv1 = ch18;
 let ch19 = srv + "19" + srvh; let dazn1es = ch19;
 let ch20 = srv + "20" + srvh; let dazn2es = ch20;
 let ch21 = srv + "21" + srvh; let espnsur = ch21;
-let ch22 = srv + "22" + srvh; let espn2sur = ch22;
+let ch22 = srv + "22" + srvh; let espn2surs = ch22;
 let ch23 = srv + "23" + srvh; let espn3sur = ch23;
 let ch24 = srv + "24" + srvh; let tycar = ch24;
 let ch25 = srv + "25" + srvh; let bemad = ch25;
@@ -117,8 +117,8 @@ function getParameterByName(name) {
         if (getURL == "ch20") {getURL = dazn2es;}
         if (getURL == "espnsur") {getURL = ch21;}
         if (getURL == "ch21") {getURL = espnsur;}
-        if (getURL == "espn2sur") {getURL = ch22;}
-        if (getURL == "ch22") {getURL = espn2sur;}
+        if (getURL == "espn2surs") {getURL = ch22;}
+        if (getURL == "ch22") {getURL = espn2surs;}
         if (getURL == "espn3sur") {getURL = ch23;}
         if (getURL == "ch23") {getURL = espn3sur;}
         if (getURL == "tycar") {getURL = ch24;}

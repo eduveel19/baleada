@@ -98,6 +98,8 @@ let tlmch = "//wmaqlive-f.akamaihd.net/i/wmaqb1_1@24420/master.m3u8";
 let tlmwash = "//wrclive-f.akamaihd.net/i/wrcb2_1@46880/master.m3u8";
 let lestrellas = "//dai.google.com/linear/hls/event/_e1s_U52SCGL6zTnlTrbVQ/master.m3u8";
 let estrellatv = "//estrellatv-plex.amagi.tv/playlist.m3u8";
+let espn2sur = "//qlobbidev.s.llnwi.net/bpk-tv/ESPN2/hls/index.m3u8";
+let espnus = "//134.19.182.131:8080/edg8_2.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -175,3 +177,5 @@ function getParameterByName(name) {
                 if (srcLOAD == "tlmwash") {srcLOAD = tlmwash;}
                 if (srcLOAD == "lestrellas") {srcLOAD = lestrellas;}
                 if (srcLOAD == "estrellatv") {srcLOAD = estrellatv;}
+                if (srcLOAD == "espn2sur") {srcLOAD = espn2sur;}
+                if (srcLOAD == "espnus") {srcLOAD = espnus;}
