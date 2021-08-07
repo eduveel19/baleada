@@ -36,6 +36,7 @@ let tsi = "//dailymotion.com/embed/video/k4kBR7bvHSEZeSwu26R?autoplay=1";
 let canal5hn = "//dailymotion.com/embed/video/k3RU54lYRXvhyCwgt0d?autoplay=1";
 let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
 let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
+let tudnif = "//futbollibre.net/en-vivo/tudn/embed.html?";
 
 
 function getParameterByName(name) {
@@ -73,6 +74,7 @@ function getParameterByName(name) {
         if (getURL == "canal5hn") {getURL = canal5hn;}
         if (getURL == "telecadena") {getURL = telecadena;}
         if (getURL == "tvcdeportes") {getURL = tvcdeportes;}
+        if (getURL == "tudnif") {getURL = tudnif;}
 
 document.write(" <iframe  class='yrspt' frameborder='0' height=100% width=100% src='" + getURL + "' allowfullscreen='yes' scrolling='no' allowtransparency></iframe>");
         
