@@ -30,6 +30,7 @@ let lnh = yrspta +  "lnh";
 let mlbn = yrspta +  "mlbn";
 // OTROS
 let tvpublica = "//i.futbollibre.net/g/tvpkey.html";
+let directv1 = "//embedmegatv9.000webhostapp.com/dtv.html#player";
 
 
 function getParameterByName(name) {
@@ -61,6 +62,7 @@ function getParameterByName(name) {
         if (getURL == "lnh") {getURL = lnh;}
         if (getURL == "mlbn") {getURL = mlbn;}
         if (getURL == "tvpublica") {getURL = tvpublica;}
+        if (getURL == "directv1") {getURL = directv1;}
 
 document.write(" <iframe  class='yrspt' frameborder='0' height=100% width=100% src='" + getURL + "' allowfullscreen='yes' scrolling='no' allowtransparency></iframe>");
         
