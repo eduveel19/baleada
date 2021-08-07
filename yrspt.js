@@ -30,7 +30,7 @@ let lnh = yrspta +  "lnh";
 let mlbn = yrspta +  "mlbn";
 // OTROS
 let tvpublica = "//i.futbollibre.net/g/tvpkey.html";
-let directv1 = "//embedmegatv9.000webhostapp.com/dtv.html#player";
+let directv1 = "//embedmegatv9.000webhostapp.com/dtv_bitmovin.html#player";
 
 
 function getParameterByName(name) {
