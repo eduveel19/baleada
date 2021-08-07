@@ -137,8 +137,10 @@ function getParameterByName(name) {
         if (getURL == "39") {getURL = ch39;}
         if (getURL == "40") {getURL = ch40;}
         if (getURL == "41") {getURL = ch41;}
-        if (getURL == "42") {getURL = ch42;}
-        if (getURL == "43") {getURL = ch43;}
+        if (getURL == "betistv") {getURL = ch42;}
+        if (getURL == "ch42") {getURL = betistv;}
+        if (getURL == "esport3") {getURL = ch43;}
+        if (getURL == "ch43") {getURL = esport3;}
         if (getURL == "44") {getURL = ch44;}
         if (getURL == "clarosp") {getURL = ch45;}
         if (getURL == "ch41") {getURL = mutv;}
