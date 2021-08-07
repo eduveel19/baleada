@@ -60,6 +60,10 @@ let itv3 = potclla+key+potcllb + "?ch=itv3";
 let itv4 = potclla+key+potcllb + "?ch=itv4";
 let itvbe = potclla+key+potcllb + "?ch=itvbe";
 let citv = potclla+key+potcllb + "?ch=citv";
+let bbcnews = potclla+key+potcllb + "?ch=bbcnews";
+let bbcone = potclla+key+potcllb + "?ch=bbcone";
+let bbctwo = potclla+key+potcllb + "?ch=bbctwo";
+let bbcfour = potclla+key+potcllb + "?ch=bbcfour";
 
 function getParameterByName(name) {
               name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
