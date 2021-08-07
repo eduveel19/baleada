@@ -94,6 +94,8 @@ let eitb = "//live-dvr.eitb-fastly.cross-media.es/live-content/eitbbasque-hls/ma
 let tvcanaria = "//rtvc-live1.flumotion.com/playlist.m3u8";
 let malaga101 = "//limited38.todostreaming.es/live/101tv-web101tv.m3u8";
 let apunt = "//bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/playlist_dvr.m3u8";
+let tlmch = "//wmaqlive-f.akamaihd.net/i/wmaqb1_1@24420/master.m3u8";
+let tlmwash = "//wrclive-f.akamaihd.net/i/wrcb2_1@46880/master.m3u8";
 let lestrellas = "//dai.google.com/linear/hls/event/_e1s_U52SCGL6zTnlTrbVQ/master.m3u8";
 
 function getParameterByName(name) {
