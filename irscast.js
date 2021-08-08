@@ -37,7 +37,7 @@ let ch33 = srv + "33" + srvh; let espn3mx = ch33;
 let ch34 = srv + "34" + srvh; let barcatv = ch34;
 let ch35 = srv + "35" + srvh; let nbcu = ch35;
 let ch36 = srv + "36" + srvh; let olympicc = ch36;
-let ch37 = srv + "37" + srvh;
+let ch37 = srv + "37" + srvh; let rmtves = ch36;
 let ch38 = srv + "38" + srvh;
 let ch39 = srv + "39" + srvh;
 let ch40 = srv + "40" + srvh;
@@ -145,7 +145,8 @@ function getParameterByName(name) {
         if (getURL == "ch35") {getURL = nbcu;}
         if (getURL == "olympicc") {getURL = ch36;}
         if (getURL == "ch36") {getURL = olympicc;}
-        if (getURL == "37") {getURL = ch37;}
+        if (getURL == "rmtves") {getURL = ch37;}
+        if (getURL == "ch37") {getURL = rmtves;}
         if (getURL == "38") {getURL = ch38;}
         if (getURL == "39") {getURL = ch39;}
         if (getURL == "40") {getURL = ch40;}
