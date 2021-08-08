@@ -100,6 +100,7 @@ let lestrellas = "//dai.google.com/linear/hls/event/_e1s_U52SCGL6zTnlTrbVQ/maste
 let estrellatv = "//estrellatv-plex.amagi.tv/playlist.m3u8";
 let espn2sur = "//qlobbidev.s.llnwi.net/bpk-tv/ESPN2/hls/index.m3u8";
 let espnus = "//134.19.182.131:8080/edg8_2.m3u8";
+let tv3cat = "//directes-tv-int.ccma.cat/int/ngrp:tv3_web/playlist.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -179,3 +180,4 @@ function getParameterByName(name) {
                 if (srcLOAD == "estrellatv") {srcLOAD = estrellatv;}
                 if (srcLOAD == "espn2sur") {srcLOAD = espn2sur;}
                 if (srcLOAD == "espnus") {srcLOAD = espnus;}
+                if (srcLOAD == "tv3cat") {srcLOAD = tv3cat;}
