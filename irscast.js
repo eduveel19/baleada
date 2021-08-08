@@ -30,7 +30,7 @@ let ch26 = srv + "26" + srvh; let mega = ch26;
 let ch27 = srv + "27" + srvh; let goltvec = ch27;
 let ch28 = srv + "28" + srvh;
 let ch29 = srv + "29" + srvh;
-let ch30 = srv + "30" + srvh;
+let ch30 = srv + "30" + srvh; let espnus = ch30;
 let ch31 = srv + "31" + srvh; let espnmx = ch31;
 let ch32 = srv + "32" + srvh; let espn2mx = ch32;
 let ch33 = srv + "33" + srvh; let espn3mx = ch33;
@@ -132,7 +132,8 @@ function getParameterByName(name) {
         if (getURL == "ch27") {getURL = goltvec;}
         if (getURL == "28") {getURL = ch28;}
         if (getURL == "29") {getURL = ch29;}
-        if (getURL == "30") {getURL = ch30;}
+        if (getURL == "espnus") {getURL = ch30;}
+        if (getURL == "ch30") {getURL = espnus;}
         if (getURL == "espnmx") {getURL = ch31;}
         if (getURL == "ch31") {getURL = espnmx;}
         if (getURL == "espn2mx") {getURL = ch32;}
