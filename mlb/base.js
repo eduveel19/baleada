@@ -9,8 +9,8 @@ window.onload = function() {
                  events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
                  height: '100%',
                  width: '100%',
-                 autoPlay: false,
-                 mute: true,
+                 autoPlay: true,
+                 mute: false,
                  shakaConfiguration: {
                  manifest: {retryParameters: {maxAttempts: Infinity}},
                  streaming: {retryParameters: {maxAttempts: Infinity}},
