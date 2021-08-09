@@ -47,7 +47,7 @@ function getParameterByName(name) {
 //                if (srcLOAD == "rays") {srcLOAD = CHrays;}
 //                if (srcLOAD == "yankees") {srcLOAD = CHyankees;}
 //                if (srcLOAD == "whitesox") {srcLOAD = CHwhitesox;}
-                if (srcLOAD == "indians") {srcLOAD = CHindians;}
+                if (srcLOAD == "chindians") {srcLOAD = CHindians;}
 //                if (srcLOAD == "astros") {srcLOAD = CHastros;}
 //                if (srcLOAD == "bluejays") {srcLOAD = CHbluejays;}
 //                if (srcLOAD == "orioles") {srcLOAD = CHorioles;}
@@ -70,5 +70,5 @@ function getParameterByName(name) {
 //                if (srcLOAD == "mets") {srcLOAD = CHmets;}
 //                if (srcLOAD == "diamondbacks") {srcLOAD = CHdiamondbacks;}
 //                if (srcLOAD == "nationals") {srcLOAD = CHnationals;}
-//                if (srcLOAD == "reds") {srcLOAD = CHreds;}
+                if (srcLOAD == "chreds") {srcLOAD = CHreds;}
 //                if (srcLOAD == "pirates") {srcLOAD = CHpirates;}
