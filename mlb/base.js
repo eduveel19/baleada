@@ -72,3 +72,5 @@ function getParameterByName(name) {
                 if (srcLOAD == "nationals") {srcLOAD = nationals
                 if (srcLOAD == "reds") {srcLOAD = reds;}
                 if (srcLOAD == "pirates") {srcLOAD = pirates;}
+                                             
+console.log(srcLoad);
