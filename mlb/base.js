@@ -73,4 +73,33 @@ function getParameterByName(name) {
                 if (srcLOAD == "reds") {srcLOAD = CHreds;}
                 if (srcLOAD == "pirates") {srcLOAD = CHpirates;}
                                              
-console.log(srcLoad);
+console.log(CHathletics);               
+console.log(CHtwins);               
+console.log(CHrays);               
+console.log(CHyankees);               
+console.log(CHwhitesox);               
+console.log(CHindians);               
+console.log(CHastros);               
+console.log(CHbluejays);               
+console.log(CHorioles);               
+console.log(CHtigers);               
+console.log(CHroyals);               
+console.log(CHmariners);               
+console.log(CHrangers);               
+console.log(CHredsox);               
+console.log(CHangels);               
+console.log(CHdodgers);               
+console.log(CHcubs);               
+console.log(CHpadres);               
+console.log(CHbraves);               
+console.log(CHmarlins);               
+console.log(CHcardinals);               
+console.log(CHrockies);               
+console.log(CHgiants);               
+console.log(CHbrewers);               
+console.log(CHphillies);               
+console.log(CHmets);               
+console.log(CHdiamondbacks);               
+console.log(CHnationals);               
+console.log(CHreds);               
+console.log(CHpirates);
