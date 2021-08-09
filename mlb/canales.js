@@ -79,7 +79,7 @@ let MLByankees = `
 for(const ele of document.getElementsByClassName("mltv-yankees")){ele.innerHTML=(MLByankees)};
 
 let MLBreds = `
-<a href="http://slowdsports.000webhostapp.com/mlb.html?src=http://g.givemenbastreams.com/hls/reds/chunks.m3u8">
+<a href="http://slowdsports.000webhostapp.com/cast.html?src=reds">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> MLB - reds | HD</li>
 </a>
@@ -143,7 +143,7 @@ let MLBcardinals = `
 for(const ele of document.getElementsByClassName("mltv-cardinals")){ele.innerHTML=(MLBcardinals)};
 
 let MLBindians = `
-<a href="http://slowdsports.000webhostapp.com/mlb.html?src=http://g.givemenbastreams.com/hls/reds/chunks.m3u8">
+<a href="http://slowdsports.000webhostapp.com/cast.html?src=indians">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> MLB - indians | HD</li>
 </a>
