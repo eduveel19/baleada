@@ -69,7 +69,7 @@ function getParameterByName(name) {
                 if (srcLOAD == "phillies") {srcLOAD = CHphillies;}
                 if (srcLOAD == "mets") {srcLOAD = CHmets;}
                 if (srcLOAD == "diamondbacks") {srcLOAD = CHdiamondbacks;}
-                if (srcLOAD == "nationals") {srcLOAD = CHnationals
+                if (srcLOAD == "nationals") {srcLOAD = CHnationals;}
                 if (srcLOAD == "reds") {srcLOAD = CHreds;}
                 if (srcLOAD == "pirates") {srcLOAD = CHpirates;}
                                              

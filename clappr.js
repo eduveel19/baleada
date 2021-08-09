@@ -183,34 +183,3 @@ function getParameterByName(name) {
                 if (srcLOAD == "espnus") {srcLOAD = espnus;}
                 if (srcLOAD == "tv3cat") {srcLOAD = tv3cat;}
                 if (srcLOAD == "lasexta") {srcLOAD = lasexta;}
-
-                if (srcLOAD == "athletics") {srcLOAD = CHathletics;}
-                if (srcLOAD == "twins") {srcLOAD = CHtwins;}
-                if (srcLOAD == "rays") {srcLOAD = CHrays;}
-                if (srcLOAD == "yankees") {srcLOAD = CHyankees;}
-                if (srcLOAD == "whitesox") {srcLOAD = CHwhitesox;}
-                if (srcLOAD == "indians") {srcLOAD = CHindians;}
-                if (srcLOAD == "astros") {srcLOAD = CHastros;}
-                if (srcLOAD == "bluejays") {srcLOAD = CHbluejays;}
-                if (srcLOAD == "orioles") {srcLOAD = CHorioles;}
-                if (srcLOAD == "tigers") {srcLOAD = CHtigers;}
-                if (srcLOAD == "royals") {srcLOAD = CHroyals;}
-                if (srcLOAD == "mariners") {srcLOAD = CHmariners;}
-                if (srcLOAD == "rangers") {srcLOAD = CHrangers;}
-                if (srcLOAD == "redsox") {srcLOAD = CHredsox;}
-                if (srcLOAD == "angels") {srcLOAD = CHangels;}
-                if (srcLOAD == "dodgers") {srcLOAD = CHdodgers;}
-                if (srcLOAD == "cubs") {srcLOAD = CHcubs;}
-                if (srcLOAD == "padres") {srcLOAD = CHpadres;}
-                if (srcLOAD == "braves") {srcLOAD = CHbraves;}
-                if (srcLOAD == "marlins") {srcLOAD = CHmarlins;}
-                if (srcLOAD == "cardinals") {srcLOAD = CHcardinals;}
-                if (srcLOAD == "rockies") {srcLOAD = CHrockies;}
-                if (srcLOAD == "giants") {srcLOAD = CHgiants;}
-                if (srcLOAD == "brewers") {srcLOAD = CHbrewers;}
-                if (srcLOAD == "phillies") {srcLOAD = CHphillies;}
-                if (srcLOAD == "mets") {srcLOAD = CHmets;}
-                if (srcLOAD == "diamondbacks") {srcLOAD = CHdiamondbacks;}
-                if (srcLOAD == "nationals") {srcLOAD = CHnationals
-                if (srcLOAD == "reds") {srcLOAD = CHreds;}
-                if (srcLOAD == "pirates") {srcLOAD = CHpirates;}
