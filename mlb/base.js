@@ -38,7 +38,7 @@ function getParameterByName(name) {
                       return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
                   }
 
-                var srcLOAD = CHgetParameterByName('src');
+        var srcLOAD = getParameterByName('src');
                 if (srcLOAD == "#") {alert('El canal se encuentra Offline');}
                 if (srcLOAD == "") {alert('El canal se encuentra Offline');}
 
