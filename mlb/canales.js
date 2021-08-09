@@ -4,7 +4,7 @@ let giants = `
 <i class="us flag"></i> MLB - giants | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-giants")){ele.innerHTML=(giants)};
+for(const ele of document.getElementsByClassName("mltv-giants")){ele.innerHTML=(giants)};
 
 let rays = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=rays">
@@ -12,7 +12,7 @@ let rays = `
 <i class="us flag"></i> MLB - rays | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-rays")){ele.innerHTML=(rays)};
+for(const ele of document.getElementsByClassName("mltv-rays")){ele.innerHTML=(rays)};
 
 let dodgers = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=dodgers">
@@ -20,7 +20,7 @@ let dodgers = `
 <i class="us flag"></i> MLB - dodgers | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-dodgers")){ele.innerHTML=(dodgers)};
+for(const ele of document.getElementsByClassName("mltv-dodgers")){ele.innerHTML=(dodgers)};
 
 let whitesox = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=whitesox">
@@ -28,7 +28,7 @@ let whitesox = `
 <i class="us flag"></i> MLB - white sox | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-whitesox")){ele.innerHTML=(whitesox)};
+for(const ele of document.getElementsByClassName("mltv-whitesox")){ele.innerHTML=(whitesox)};
 
 let astros = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=astros">
@@ -36,7 +36,7 @@ let astros = `
 <i class="us flag"></i> MLB - astros | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-astros")){ele.innerHTML=(astros)};
+for(const ele of document.getElementsByClassName("mltv-astros")){ele.innerHTML=(astros)};
 
 let brewers = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=brewers">
@@ -44,7 +44,7 @@ let brewers = `
 <i class="us flag"></i> MLB - brewers | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-brewers")){ele.innerHTML=(brewers)};
+for(const ele of document.getElementsByClassName("mltv-brewers")){ele.innerHTML=(brewers)};
 
 let athletics = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=athletics">
@@ -52,7 +52,7 @@ let athletics = `
 <i class="us flag"></i> MLB - athletics | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-athletics")){ele.innerHTML=(athletics)};
+for(const ele of document.getElementsByClassName("mltv-athletics")){ele.innerHTML=(athletics)};
 
 let redsox = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=redsox">
@@ -60,7 +60,7 @@ let redsox = `
 <i class="us flag"></i> MLB - red sox | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-redsox")){ele.innerHTML=(redsox)};
+for(const ele of document.getElementsByClassName("mltv-redsox")){ele.innerHTML=(redsox)};
 
 let padres = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=padres">
@@ -68,7 +68,7 @@ let padres = `
 <i class="us flag"></i> MLB - padres | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-padres")){ele.innerHTML=(padres)};
+for(const ele of document.getElementsByClassName("mltv-padres")){ele.innerHTML=(padres)};
 
 let yankees = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=yankees">
@@ -76,7 +76,7 @@ let yankees = `
 <i class="us flag"></i> MLB - yankees | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-yankees")){ele.innerHTML=(yankees)};
+for(const ele of document.getElementsByClassName("mltv-yankees")){ele.innerHTML=(yankees)};
 
 let reds = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=reds">
@@ -84,7 +84,7 @@ let reds = `
 <i class="us flag"></i> MLB - reds | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-reds")){ele.innerHTML=(reds)};
+for(const ele of document.getElementsByClassName("mltv-reds")){ele.innerHTML=(reds)};
 
 let bluejays = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=bluejays">
@@ -92,7 +92,7 @@ let bluejays = `
 <i class="us flag"></i> MLB - blue jays | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-bluejays")){ele.innerHTML=(bluejays)};
+for(const ele of document.getElementsByClassName("mltv-bluejays")){ele.innerHTML=(bluejays)};
 
 let phillies = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=phillies">
@@ -100,7 +100,7 @@ let phillies = `
 <i class="us flag"></i> MLB - phillies | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-phillies")){ele.innerHTML=(phillies)};
+for(const ele of document.getElementsByClassName("mltv-phillies")){ele.innerHTML=(phillies)};
 
 let mariners = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=mariners">
@@ -108,7 +108,7 @@ let mariners = `
 <i class="us flag"></i> MLB - mariners | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-mariners")){ele.innerHTML=(mariners)};
+for(const ele of document.getElementsByClassName("mltv-mariners")){ele.innerHTML=(mariners)};
 
 let braves = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=braves">
@@ -116,7 +116,7 @@ let braves = `
 <i class="us flag"></i> MLB - braves | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-braves")){ele.innerHTML=(braves)};
+for(const ele of document.getElementsByClassName("mltv-braves")){ele.innerHTML=(braves)};
 
 let mets = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=mets">
@@ -124,7 +124,7 @@ let mets = `
 <i class="us flag"></i> MLB - mets | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-mets")){ele.innerHTML=(mets)};
+for(const ele of document.getElementsByClassName("mltv-mets")){ele.innerHTML=(mets)};
 
 let angels = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=angels">
@@ -132,7 +132,7 @@ let angels = `
 <i class="us flag"></i> MLB - angels | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-angels")){ele.innerHTML=(angels)};
+for(const ele of document.getElementsByClassName("mltv-angels")){ele.innerHTML=(angels)};
 
 let cardinals = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=cardinals">
@@ -140,7 +140,7 @@ let cardinals = `
 <i class="us flag"></i> MLB - cardinals | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-cardinals")){ele.innerHTML=(cardinals)};
+for(const ele of document.getElementsByClassName("mltv-cardinals")){ele.innerHTML=(cardinals)};
 
 let indians = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=indians">
@@ -148,7 +148,7 @@ let indians = `
 <i class="us flag"></i> MLB - indians | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-indians")){ele.innerHTML=(indians)};
+for(const ele of document.getElementsByClassName("mltv-indians")){ele.innerHTML=(indians)};
 
 let tigers = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=tigers">
@@ -156,7 +156,7 @@ let tigers = `
 <i class="us flag"></i> MLB - tigers | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-tigers")){ele.innerHTML=(tigers)};
+for(const ele of document.getElementsByClassName("mltv-tigers")){ele.innerHTML=(tigers)};
 
 let cubs = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=cubs">
@@ -164,7 +164,7 @@ let cubs = `
 <i class="us flag"></i> MLB - cubs | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-cubs")){ele.innerHTML=(cubs)};
+for(const ele of document.getElementsByClassName("mltv-cubs")){ele.innerHTML=(cubs)};
 
 let rockies = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=rockies">
@@ -172,7 +172,7 @@ let rockies = `
 <i class="us flag"></i> MLB - rockies | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-rockies")){ele.innerHTML=(rockies)};
+for(const ele of document.getElementsByClassName("mltv-rockies")){ele.innerHTML=(rockies)};
 
 let nationals = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=nationals">
@@ -180,7 +180,7 @@ let nationals = `
 <i class="us flag"></i> MLB - nationals | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-nationals")){ele.innerHTML=(nationals)};
+for(const ele of document.getElementsByClassName("mltv-nationals")){ele.innerHTML=(nationals)};
 
 let royals = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=royals">
@@ -188,7 +188,7 @@ let royals = `
 <i class="us flag"></i> MLB - royals | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-royals")){ele.innerHTML=(royals)};
+for(const ele of document.getElementsByClassName("mltv-royals")){ele.innerHTML=(royals)};
 
 let twins = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=twins">
@@ -196,7 +196,7 @@ let twins = `
 <i class="us flag"></i> MLB - twins | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-twins")){ele.innerHTML=(twins)};
+for(const ele of document.getElementsByClassName("mltv-twins")){ele.innerHTML=(twins)};
 
 let marlins = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=marlins">
@@ -204,7 +204,7 @@ let marlins = `
 <i class="us flag"></i> MLB - marlins | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-marlins")){ele.innerHTML=(marlins)};
+for(const ele of document.getElementsByClassName("mltv-marlins")){ele.innerHTML=(marlins)};
 
 let pirates = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=pirates">
@@ -212,7 +212,7 @@ let pirates = `
 <i class="us flag"></i> MLB - pirates | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-pirates")){ele.innerHTML=(pirates)};
+for(const ele of document.getElementsByClassName("mltv-pirates")){ele.innerHTML=(pirates)};
 
 let rangers = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=rangers">
@@ -220,7 +220,7 @@ let rangers = `
 <i class="us flag"></i> MLB - rangers | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-rangers")){ele.innerHTML=(rangers)};
+for(const ele of document.getElementsByClassName("mltv-rangers")){ele.innerHTML=(rangers)};
 
 let orioles = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=orioles">
@@ -228,7 +228,7 @@ let orioles = `
 <i class="us flag"></i> MLB - orioles | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-orioles")){ele.innerHTML=(orioles)};
+for(const ele of document.getElementsByClassName("mltv-orioles")){ele.innerHTML=(orioles)};
 
 let diamondbacks = `
 <a href="http://slowdsports.000webhostapp.com/mlb.html?src=diamondbacks">
@@ -236,4 +236,4 @@ let diamondbacks = `
 <i class="us flag"></i> MLB - diamondbacks | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mlb-diamondbacks")){ele.innerHTML=(diamondbacks)};
+for(const ele of document.getElementsByClassName("mltv-diamondbacks")){ele.innerHTML=(diamondbacks)};
