@@ -1,12 +1,12 @@
 let ml0 = "http://g.givemenbastreams.com/hls/";
 let ml1 = "/playlist.m3u8";
 
-let nba1 = "link.m3u8";
-let nba2 = "";
-let nba3 = "";
-let nba4 = "";
-let nba5 = "";
-let nba6 = "";
+let nba1 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
+let nba2 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
+let nba3 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
+let nba4 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
+let nba5 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
+let nba6 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
