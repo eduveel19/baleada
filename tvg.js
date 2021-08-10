@@ -35,3 +35,5 @@ function getParameterByName(name) {
         if (getURL == "directvp") {getURL = directvp;}
 
         if (getURL == "winsports") {getURL = winsports;}
+
+document.write(" <iframe class='dark' frameborder='0' sandbox='allow-scripts allow-same-origin' height=100% width=100% src='" + getURL + "' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='yes' scrolling='no' allowtransparency></iframe>");
