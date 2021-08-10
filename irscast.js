@@ -38,8 +38,8 @@ let ch34 = srv + "34" + srvh; let barcatv = ch34;
 let ch35 = srv + "35" + srvh; let nbcu = ch35;
 let ch36 = srv + "36" + srvh; let olympicc = ch36;
 let ch37 = srv + "37" + srvh; let rmtves = ch36;
-let ch38 = srv + "38" + srvh;
-let ch39 = srv + "39" + srvh;
+let ch38 = srv + "38" + srvh; let dazn3es = ch38;
+let ch39 = srv + "39" + srvh; let dazn4es = ch39;
 let ch40 = srv + "40" + srvh;
 let ch41 = srv + "41" + srvh; let mutv = ch41;
 let ch42 = srv + "42" + srvh; let betistv = ch42;
@@ -148,8 +148,10 @@ function getParameterByName(name) {
         if (getURL == "ch36") {getURL = olympicc;}
         if (getURL == "rmtves") {getURL = ch37;}
         if (getURL == "ch37") {getURL = rmtves;}
-        if (getURL == "38") {getURL = ch38;}
-        if (getURL == "39") {getURL = ch39;}
+        if (getURL == "dazn3es") {getURL = ch38;}
+        if (getURL == "ch38") {getURL = dazn3es;}
+        if (getURL == "dazn4es") {getURL = ch39;}
+        if (getURL == "ch39") {getURL = dazn4es;}
         if (getURL == "40") {getURL = ch40;}
         if (getURL == "41") {getURL = ch41;}
         if (getURL == "betistv") {getURL = ch42;}
