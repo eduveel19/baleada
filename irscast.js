@@ -36,8 +36,8 @@ let ch32 = srv + "32" + srvh; let espn2mx = ch32;
 let ch33 = srv + "33" + srvh; let espn3mx = ch33;
 let ch34 = srv + "34" + srvh; let barcatv = ch34;
 let ch35 = srv + "35" + srvh; let nbcu = ch35;
-let ch36 = srv + "36" + srvh; let olympicc = ch36;
-let ch37 = srv + "37" + srvh; let rmtves = ch36;
+let ch36 = srv + "36" + srvh; let fs1mx = ch36;
+let ch37 = srv + "37" + srvh; let fs2mx = ch37;
 let ch38 = srv + "38" + srvh; let dazn3es = ch38;
 let ch39 = srv + "39" + srvh; let dazn4es = ch39;
 let ch40 = srv + "40" + srvh;
@@ -144,10 +144,10 @@ function getParameterByName(name) {
         if (getURL == "ch34") {getURL = barcatv;}
         if (getURL == "nbcu") {getURL = ch35;}
         if (getURL == "ch35") {getURL = nbcu;}
-        if (getURL == "olympicc") {getURL = ch36;}
-        if (getURL == "ch36") {getURL = olympicc;}
-        if (getURL == "rmtves") {getURL = ch37;}
-        if (getURL == "ch37") {getURL = rmtves;}
+        if (getURL == "fs1mx") {getURL = ch36;}
+        if (getURL == "ch36") {getURL = fs1mx;}
+        if (getURL == "fs2mx") {getURL = ch37;}
+        if (getURL == "ch37") {getURL = fs2mx;}
         if (getURL == "dazn3es") {getURL = ch38;}
         if (getURL == "ch38") {getURL = dazn3es;}
         if (getURL == "dazn4es") {getURL = ch39;}
