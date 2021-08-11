@@ -53,6 +53,8 @@ let l7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+// O T S
+let tigohn = "";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -119,3 +121,5 @@ function getParameterByName(name) {
                 if (srcLOAD == "l8") {srcLOAD = l8;}
                 if (srcLOAD == "l9") {srcLOAD = l9;}
                 if (srcLOAD == "l10") {srcLOAD = l10;}
+                // O T S
+                if (srcLOAD == "tigohn") {srcLOAD = tigohn;}
