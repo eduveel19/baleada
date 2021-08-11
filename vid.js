@@ -1,5 +1,5 @@
 // E P L
-let p1 = "http://161.35.97.173/live/ovochannel2/playlist.m3u8";
+let p1 = "http://134.122.31.95/live/ovochannel2/playlist.m3u8";
 let p2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
