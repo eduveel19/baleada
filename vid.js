@@ -54,7 +54,7 @@ let l8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // O T S
-let tigohn = "";
+let tigohn = "https://contvanime-tcl.amagi.tv/playlist.m3u8";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
