@@ -45,7 +45,7 @@ let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L L S
 let c1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let c2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let c2 = "https://bcovlive-a.akamaihd.net/825f39eaa17d4794a3898945026556e0/us-west-2/6056665196001/playlist.m3u8";
 let c3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
