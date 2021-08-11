@@ -19,4 +19,4 @@ function getParameterByName(name) {
     parent: ["127.0.0.1", "slowdsports.000webhostapp.com", "slowdsports.github.io"]
   };
   var player = new Twitch.Player("twitchPlayer", options);
-  player.setVolume(0.5);
+  player.setVolume(1.0);
