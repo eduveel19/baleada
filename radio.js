@@ -5,7 +5,7 @@ window.onload = function() {
                  poster: poster,
                  parentId: '#player',
                  mimeType: 'audio/mpeg',
-                 watermark: "https://i.ibb.co/Tgk2YrC/Logow-1-1.png", 
+                 watermark: "https://i.ibb.co/kqmptsD/iRTVW.png", 
                  position: 'top-left',
                  plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
                  events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},
@@ -43,7 +43,7 @@ window.onload = function() {
                  width: '100%',
                  autoPlay: true,
                  loop: true,
-                 mute: true,
+                 mute: false,
                  shakaConfiguration: {
                  manifest: {retryParameters: {maxAttempts: Infinity}},
                  streaming: {retryParameters: {maxAttempts: Infinity}},

@@ -10,6 +10,7 @@ function getParameterByName(name) {
                 if (srcLOAD == "#") {alert('El canal se encuentra Offline');}
                 if (srcLOAD == "") {alert('El canal se encuentra Offline');}
 
+// CLAPPR YT PLUGIN
 var YoutubePlugin = Clappr.Playback.extend({
   name: 'youtube_plugin',
   initialize: function() {
